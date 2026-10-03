@@ -38,4 +38,9 @@ This project uses a trained machine learning model to estimate demand for a prod
 2. Click the Predict Demand button.
 3. View the forecasted demand result.
 
+## Output
+<img width="615" height="817" alt="image" src="https://github.com/user-attachments/assets/14342c39-756a-4007-9ec1-f9a50729ba1b" />
+<img width="628" height="820" alt="image" src="https://github.com/user-attachments/assets/b9588f09-040f-4b51-a602-b29d29d2f7d6" />
+
+
 
