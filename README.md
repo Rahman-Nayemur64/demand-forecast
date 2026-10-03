@@ -31,6 +31,27 @@ This project uses a trained machine learning model to estimate demand for a prod
 - `label_encoder.pkl` – category label encoder
 - `requirements.txt` – Python dependencies
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rahman-Nayemur64/demand-forecast.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd demand-forecast
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
    ```
 
 ## Run the App
@@ -51,4 +72,6 @@ http://localhost:8501
 2. Click the Predict Demand button.
 3. View the forecasted demand result.
 
+## License
 
+This project is for educational and demonstration purposes.
