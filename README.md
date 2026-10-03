@@ -1,0 +1,77 @@
+# Demand Forecasting App
+
+A Streamlit web application for predicting product demand based on price, discount, inventory, promotion, competitor pricing, and product category.
+
+## App Repository
+
+- https://demand-forecast-kkt57qsc5tuw3sq3pckqst.streamlit.app/
+
+## Overview
+
+This project uses a trained machine learning model to estimate demand for a product. The app allows users to input business variables and receive a demand prediction instantly through the interface.
+
+## Features
+
+- Predict demand using a trained XGBoost model
+- Input fields for:
+  - Price
+  - Discount
+  - Inventory Level
+  - Promotion
+  - Competitor Pricing
+  - Category
+- Simple and interactive Streamlit dashboard
+
+## Project Structure
+
+- `app.py` – Streamlit app logic and prediction interface
+- `demand_forecasting.csv` – dataset used for demand forecasting
+- `demand_forecasting.ipynb` – notebook for model development and analysis
+- `xgbboost_demand_forecasting_model.pkl` – trained prediction model
+- `label_encoder.pkl` – category label encoder
+- `requirements.txt` – Python dependencies
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rahman-Nayemur64/demand-forecast.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd demand-forecast
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Run the App
+
+```bash
+streamlit run app.py
+```
+
+Then open the local URL displayed in the terminal, usually:
+
+```text
+http://localhost:8501
+```
+
+## Usage
+
+1. Enter product information in the sidebar or form.
+2. Click the Predict Demand button.
+3. View the forecasted demand result.
+
+## License
+
+This project is for educational and demonstration purposes.
